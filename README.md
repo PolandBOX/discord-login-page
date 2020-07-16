@@ -1,7 +1,7 @@
 # discord-login-page
 🔐 An Open Source Template for Login Page From Scratch Without Any CSS Framework
 
-![alt text](https://pasteboard.co/JhSXrPp.png)
+![screenshot](https://cdn.discordapp.com/attachments/699218409493233725/733232877701169202/Bez_tytuu.png)
 
 
 ## :earth_africa: Browsers support
