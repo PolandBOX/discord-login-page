@@ -1,0 +1,131 @@
+html {
+  box-sizing: border-box;
+  color: #444;
+  font: 1rem/1.5 Lato;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
+}
+
+.auth-wrap-background {
+  background-image: url("https://img5.goodfon.com/wallpaper/nbig/d/21/tony-skeor-by-tony-skeor-2-00-am-illustration-night-cyberpun.jpg");
+  background-size: cover;
+  background-position: 50%;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.auth-center {
+  -webkit-box-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.auth-blur {
+  -webkit-filter: blur(10px);
+          filter: blur(10px);
+  overflow: hidden;
+}
+
+.auth-size {
+  max-height: 440px;
+  max-width: 780px;
+  height: 440px;
+  width: 100%;
+}
+
+.auth__inner {
+  display: -webkit-box;
+  display: flex;
+  overflow: hidden;
+}
+
+.auth__inner__section {
+  padding: 1.25rem 2rem;
+}
+
+.auth__sidebar {
+  background: rgba(255, 255, 255, 0.5);
+  -webkit-box-flex: 40%;
+          flex: 40%;
+}
+
+.auth__form {
+  background: rgba(34, 37, 42, 0.8);
+  -webkit-box-flex: 45%;
+          flex: 45%;
+}
+
+.form__title {
+  color: rgba(255, 255, 255, 0.95);
+  font-size: 1.125rem;
+  font-weight: 900;
+  letter-spacing: 1px;
+  padding: 0 0 1rem 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.form__label {
+  padding-bottom: 1.25rem;
+  display: block;
+}
+
+.form__label__text {
+  color: #87909c;
+  font-weight: 700;
+  font-size: 0.6875rem;
+  text-transform: uppercase;
+}
+
+.form__input {
+  background: transparent;
+  color: rgba(255, 255, 255, 0.8);
+  border: 0;
+  border-bottom: 2px solid transparent;
+  display: block;
+  outline: 0;
+  position: relative;
+  padding: 10px 0px;
+  width: 100%;
+}
+.form__input:focus {
+  border-color: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.form__input-border {
+  border-bottom: 1px solid #87909c;
+  display: block;
+}
+
+.button {
+  background: #697ec4;
+  border-radius: 3px;
+  border: 0;
+  color: #fff;
+  display: block;
+  line-height: 60px;
+  margin-top: 70px;
+  outline: 0;
+  width: 100%;
+}
+
+.form__meta {
+  font-size: 0.6875rem;
+  padding: 10px 0;
+}
